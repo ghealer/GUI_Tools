@@ -6,7 +6,7 @@
 ### ✨ Demo
 ![](https://raw.githubusercontent.com/ghealer/GUI_Tools/main/img/demo.png)
 
-###🚀 快速使用
+### 🚀 快速使用
 - 下载程序源代码
 `git clone https://github.com/ghealer/GUI_Tools.git`
 
@@ -27,5 +27,3 @@
 
 - 执行程序
 `python3 GUI_Tools.py`
-
-### End
