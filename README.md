@@ -10,7 +10,7 @@
 ### 🚀 快速使用
 - 下载程序源代码
 
-	`git clone https://github.com/ghealer/GUI_Tools.git`
+  `git clone https://github.com/ghealer/GUI_Tools.git`
   
   `pip install wxPython==4.1.1`
   
@@ -18,6 +18,8 @@
 
 - 下载工具包
 
+  `aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMWF5OEtTNU1WaWF2MG5PaUZ5RE1WdUEgICAgIHZtYjc=`
+  
   将工具包放在GUI_Tools根目录下
 
 - 目录结构
