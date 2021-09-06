@@ -10,10 +10,15 @@
 ### 🚀 快速使用
 - 下载程序源代码
 
-`git clone https://github.com/ghealer/GUI_Tools.git`
+	`git clone https://github.com/ghealer/GUI_Tools.git`
+  
+  `pip install wxPython==4.1.1`
+  
+  `wxpython 的具体安装方法和使用可以参照官网 https://www.wxpython.org`
 
 - 下载工具包
-将工具包放在GUI_Tools根目录下
+
+  将工具包放在GUI_Tools根目录下
 
 - 目录结构
 ```markdown
@@ -31,6 +36,11 @@
 
 - 执行程序
 
-`python3 GUI_Tools.py`
+	`python3 GUI_Tools.py`
 
-### End
+- 问题反馈
+
+	- 	如有问题请提交 Issues，我看到会及时解决。
+	- 	工具刚写出来，可能BUG比较多，还望各位大佬多多包涵。
+	- 	后面会定期更新添加工具，各位在使用的时候如果有什么比较好用的想要添加到工具里的也可以提交 Issues。
+	- 	后面会出一个纯命令行的工具集，尽情期待。
