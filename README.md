@@ -15,6 +15,7 @@
 将工具包放在GUI_Tools根目录下
 
 - 目录结构
+```markdown
 ├── GUI_Tools.py
 ├── GUI_Tools_wxpython_gui.py
 ├── JAR_Management.fbp
@@ -25,8 +26,7 @@
 ├── java9
 ├── java_1.8
 └── setting.py
+```
 
 - 执行程序
 `python3 GUI_Tools.py`
-
-### End
