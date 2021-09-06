@@ -18,7 +18,7 @@
 
 - 下载工具包
 
-  `aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMWF5OEtTNU1WaWF2MG5PaUZ5RE1WdUEgICAgIHZtYjc=`
+  `工具包下载链接上传完成以后贴上`
   
   将工具包放在GUI_Tools根目录下
 
