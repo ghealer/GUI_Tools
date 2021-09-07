@@ -31,8 +31,7 @@
 ├── gui_scan
 ├── gui_shouji
 ├── gui_webshell
-├── java9
-├── java_1.8
+├── Java_path
 └── setting.py
 ```
 
