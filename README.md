@@ -18,7 +18,7 @@
 
 - 下载工具包
 
-  `工具包下载链接上传完成以后贴上`
+  `aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMXk1aGZRWV9Qa3JiSkE1RVl1dzJXNHcgICAgIGhnaTg=`
   
   将工具包解压(密码:GUI_Tools)放在GUI_Tools根目录下
   
