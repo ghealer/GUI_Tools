@@ -1,4 +1,4 @@
-# GUI_Tools
+# GUI_Tools V1.0
 
 ![](https://img.shields.io/github/stars/ghealer/GUI_Tools) ![](https://img.shields.io/github/forks/ghealer/GUI_Tools)  ![](https://img.shields.io/github/issues/ghealer/GUI_Tools)
 > 一个由各种图形化渗透工具组成的工具集，环境已配置完成，自带Java1.8与Java9
@@ -20,7 +20,9 @@
 
   `工具包下载链接上传完成以后贴上`
   
-  将工具包放在GUI_Tools根目录下
+  将工具包解压(密码:GUI_Tools)放在GUI_Tools根目录下
+  
+  PS.工具包里的Cobalt Strike内置了很多插件，如有需要可以自行加载；工具包较大，后续会持续补充。
 
 - 目录结构
 ```markdown
