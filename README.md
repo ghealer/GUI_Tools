@@ -20,6 +20,8 @@
 
   `aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMXk1aGZRWV9Qa3JiSkE1RVl1dzJXNHcgICAgIGhnaTg=`
   
+  `aHR0cHM6Ly93czI4LmNuL2YvNmM2ZDJtM2dma3c=`
+  
   将工具包解压(密码:GUI_Tools)放在GUI_Tools根目录下
   
   PS.工具包里的Cobalt Strike内置了很多插件，如有需要可以自行加载；工具包较大，后续会持续补充。
