@@ -17,7 +17,7 @@ import wx.xrc
 class jar_management_gui ( wx.Frame ):
 
 	def __init__( self, parent ):
-		wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = u"图形化渗透武器库管理合集", pos = wx.DefaultPosition, size = wx.Size( 1000,600 ), style = wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL )
+		wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = u"图形化渗透武器库管理合集_V1.0", pos = wx.DefaultPosition, size = wx.Size( 1000,600 ), style = wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL )
 
 		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
@@ -46,8 +46,8 @@ class jar_management_gui ( wx.Frame ):
 		self.burp_suite = wx.Button( gui_other.GetStaticBox(), wx.ID_ANY, u"Burp_Suite_Professional_v2021.8", wx.DefaultPosition, wx.DefaultSize, 0 )
 		other.Add( self.burp_suite, 0, wx.ALL, 5 )
 
-		self.m_button31 = wx.Button( gui_other.GetStaticBox(), wx.ID_ANY, u"Cobalt_Strike_v4.3", wx.DefaultPosition, wx.DefaultSize, 0 )
-		other.Add( self.m_button31, 0, wx.ALL, 5 )
+		self.cs = wx.Button( gui_other.GetStaticBox(), wx.ID_ANY, u"Cobalt_Strike_v4.3", wx.DefaultPosition, wx.DefaultSize, 0 )
+		other.Add( self.cs, 0, wx.ALL, 5 )
 
 
 		gui_other.Add( other, 1, wx.EXPAND, 5 )
@@ -65,8 +65,11 @@ class jar_management_gui ( wx.Frame ):
 		self.webfinder = wx.Button( gui_shouji.GetStaticBox(), wx.ID_ANY, u"Webfinder_v3.2", wx.DefaultPosition, wx.DefaultSize, 0 )
 		shouji.Add( self.webfinder, 0, wx.ALL, 5 )
 
-		self.m_button33 = wx.Button( gui_shouji.GetStaticBox(), wx.ID_ANY, u"Fofa_Viewer_v1.0.8", wx.DefaultPosition, wx.DefaultSize, 0 )
-		shouji.Add( self.m_button33, 0, wx.ALL, 5 )
+		self.fofa = wx.Button( gui_shouji.GetStaticBox(), wx.ID_ANY, u"Fofa_Viewer_v1.0.8", wx.DefaultPosition, wx.DefaultSize, 0 )
+		shouji.Add( self.fofa, 0, wx.ALL, 5 )
+
+		self.yjdirscan = wx.Button( gui_shouji.GetStaticBox(), wx.ID_ANY, u"御剑dirscan_v1.1", wx.DefaultPosition, wx.DefaultSize, 0 )
+		shouji.Add( self.yjdirscan, 0, wx.ALL, 5 )
 
 
 		gui_shouji.Add( shouji, 1, wx.EXPAND, 5 )
@@ -81,7 +84,7 @@ class jar_management_gui ( wx.Frame ):
 		self.tdoa = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"通达OA综合利用工具_v1.0", wx.DefaultPosition, wx.DefaultSize, 0 )
 		scan.Add( self.tdoa, 0, wx.ALL, 5 )
 
-		self.Gr33k = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"Gr33k漏洞利用工具集", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.Gr33k = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"Gr33k漏洞利用工具集_py", wx.DefaultPosition, wx.DefaultSize, 0 )
 		scan.Add( self.Gr33k, 0, wx.ALL, 5 )
 
 		self.Cas = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"Cas反序列化漏洞利用工具_v1.1", wx.DefaultPosition, wx.DefaultSize, 0 )
@@ -138,7 +141,7 @@ class jar_management_gui ( wx.Frame ):
 		self.tomcat_password = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"tomcat_password", wx.DefaultPosition, wx.DefaultSize, 0 )
 		scan.Add( self.tomcat_password, 0, wx.ALL, 5 )
 
-		self.fastjson = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"fastjson检测工具", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.fastjson = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"fastjson检测工具_win", wx.DefaultPosition, wx.DefaultSize, 0 )
 		scan.Add( self.fastjson, 0, wx.ALL, 5 )
 
 		self.CVE_2020_10199 = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"CVE-2020-10199", wx.DefaultPosition, wx.DefaultSize, 0 )
@@ -150,7 +153,7 @@ class jar_management_gui ( wx.Frame ):
 		self.aliyun_accesskey = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"阿里云accesskey利用工具_V1.2_win", wx.DefaultPosition, wx.DefaultSize, 0 )
 		scan.Add( self.aliyun_accesskey, 0, wx.ALL, 5 )
 
-		self.AliyunAkTools = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"AliyunAkTools", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.AliyunAkTools = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"AliyunAkTools_win", wx.DefaultPosition, wx.DefaultSize, 0 )
 		scan.Add( self.AliyunAkTools, 0, wx.ALL, 5 )
 
 		self.mdut = wx.Button( gui_scan.GetStaticBox(), wx.ID_ANY, u"MDUT_v2.0.6", wx.DefaultPosition, wx.DefaultSize, 0 )
@@ -172,8 +175,11 @@ class jar_management_gui ( wx.Frame ):
 		self.godzilla.Bind( wx.EVT_BUTTON, self.godzilla_click )
 		self.behinder.Bind( wx.EVT_BUTTON, self.behinder_click )
 		self.burp_suite.Bind( wx.EVT_BUTTON, self.burp_suite_click )
+		self.cs.Bind( wx.EVT_BUTTON, self.cs_click )
 		self.dirscan.Bind( wx.EVT_BUTTON, self.dirscan_click )
 		self.webfinder.Bind( wx.EVT_BUTTON, self.webfinder_click )
+		self.fofa.Bind( wx.EVT_BUTTON, self.fofa_click )
+		self.yjdirscan.Bind( wx.EVT_BUTTON, self.yj_click )
 		self.tdoa.Bind( wx.EVT_BUTTON, self.tdoa_click )
 		self.Gr33k.Bind( wx.EVT_BUTTON, self.gr33k_click )
 		self.Cas.Bind( wx.EVT_BUTTON, self.cas_click )
@@ -215,10 +221,19 @@ class jar_management_gui ( wx.Frame ):
 	def burp_suite_click( self, event ):
 		event.Skip()
 
+	def cs_click( self, event ):
+		event.Skip()
+
 	def dirscan_click( self, event ):
 		event.Skip()
 
 	def webfinder_click( self, event ):
+		event.Skip()
+
+	def fofa_click( self, event ):
+		event.Skip()
+
+	def yj_click( self, event ):
 		event.Skip()
 
 	def tdoa_click( self, event ):
