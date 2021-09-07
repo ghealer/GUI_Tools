@@ -114,6 +114,9 @@ class MianWindow(GUI_Tools_wxpython_gui.jar_management_gui):
     def jdgui_click(self, event):
         subprocess.Popen("cd gui_scan && ../" + java8_path + ' -jar ' + 'jd-gui-1.6.6.jar', shell=True)
 
+    def mdut_click(self, event):
+        subprocess.Popen("cd gui_scan/Multiple.Database.Utilization.Tools.-.v2.0.6 && ../../" + java8_path + ' -jar ' + 'MDUT.jar', shell=True)
+
 if __name__ == '__main__':
     app = wx.App()
     frame = MianWindow(None)
