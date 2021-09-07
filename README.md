@@ -1,7 +1,7 @@
 # GUI_Tools V1.0
 
 ![](https://img.shields.io/github/stars/ghealer/GUI_Tools) ![](https://img.shields.io/github/forks/ghealer/GUI_Tools)  ![](https://img.shields.io/github/issues/ghealer/GUI_Tools)
-> 一个由各种图形化渗透工具组成的工具集，环境已配置完成，自带Java1.8与Java9
+> 一个由各种图形化渗透工具组成的工具集，环境已配置完成，自带Java1.8与Java9。
 工具会持续添加，欢迎提交新工具到 Issues
 
 ### ✨ Demo
