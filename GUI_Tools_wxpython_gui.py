@@ -211,7 +211,7 @@ class jar_management_gui ( wx.Frame ):
 		pass
 
 
-	# Virtual event handlers, overide them in your derived class
+	# Virtual event handlers, override them in your derived class
 	def godzilla_click( self, event ):
 		event.Skip()
 
