@@ -12,10 +12,8 @@
 
   `git clone https://github.com/ghealer/GUI_Tools.git`
   
-  `pip install wxPython==4.1.1`
+  `pip install -r requirements.txt`
   
-  `wxpython 的具体安装方法和使用可以参照官网 https://www.wxpython.org`
-
 - 下载工具包
 
   `aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMXk1aGZRWV9Qa3JiSkE1RVl1dzJXNHcgICAgIGhnaTg=`
