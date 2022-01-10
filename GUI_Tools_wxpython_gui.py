@@ -43,10 +43,10 @@ class jar_management_gui ( wx.Frame ):
 
 		other = wx.WrapSizer( wx.HORIZONTAL, wx.WRAPSIZER_DEFAULT_FLAGS )
 
-		self.burp_suite = wx.Button( gui_other.GetStaticBox(), wx.ID_ANY, u"Burp_Suite_Professional_v2021.8", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.burp_suite = wx.Button( gui_other.GetStaticBox(), wx.ID_ANY, u"BurpSuite_Pro_v2021.10.3", wx.DefaultPosition, wx.DefaultSize, 0 )
 		other.Add( self.burp_suite, 0, wx.ALL, 5 )
 
-		self.cs = wx.Button( gui_other.GetStaticBox(), wx.ID_ANY, u"Cobalt_Strike_v4.3", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.cs = wx.Button( gui_other.GetStaticBox(), wx.ID_ANY, u"Cobalt_Strike_v4.4", wx.DefaultPosition, wx.DefaultSize, 0 )
 		other.Add( self.cs, 0, wx.ALL, 5 )
 
 
