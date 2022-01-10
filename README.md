@@ -59,6 +59,7 @@
 	- 删除 Burp_Suite_Professional_v2021.8
 	- 新增原版 CobaltStrike4.4 ，破解方式为[CSAgent](https://github.com/Twi1ight/CSAgent)
 	- 新增原版 BurpSuite_Pro_v2021.10.3 ，破解方式为[BurpLoaderKeygen](https://github.com/h3110w0r1d-y/BurpLoaderKeygen)
+	- 自行删除 MDUT 内 hta 文件，[详看](https://www.yuque.com/u21224612/nezuig/sxmhkz)
 
 - 近期发布 V2.0
 	- 重构框架，将工具进行分组分类
@@ -90,3 +91,4 @@
 - **关于 CobaltStrike4.3 存在后门一事的情况说明**
 	- **收到反馈工具包内 CobaltStrike4.3 存在后门情况，工具下载于某苁，下载完未进行后门审查，可能存在未知安全风险，建议所有已安装人员删除旧版本，并进行全盘查杀病毒。**
 	- **修复办法：将工具包内 CobaltStrike4.3 删除，使用火绒或其他病毒查杀软件进行全盘病毒查杀，并监测系统进程与网络连接情况，发现异常进程及连接及时清理；下载 V1.1 更新包进行替换。再次建议在虚拟机里运行本程序下的工具**
+- [关于 MDUT 里面存在的"后门" hta 文件](https://www.yuque.com/u21224612/nezuig/sxmhkz)
