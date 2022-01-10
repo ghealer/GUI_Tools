@@ -16,10 +16,10 @@ class MianWindow(GUI_Tools_wxpython_gui.jar_management_gui):
 
     #渗透工具
     def burp_suite_click(self, event):
-        subprocess.Popen("cd gui_other/burpsuite_pro_v2021.5.1 && " + java9_path + ' --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:BurpSuiteLoader_v2021.8.1.jar -noverify -jar burpsuite_pro_v2021.8.jar', shell=True)
+        subprocess.Popen("cd gui_other/BurpSuite_Pro && " + java9_path + ' -javaagent:BurpLoaderKeygen.jar -noverify -jar burpsuite_pro_v2021.10.3.jar', shell=True)
 
     def cs_click(self, event):
-        subprocess.Popen("cd gui_other/cobaltstrike4.3/cobaltstrike4.3 && " + java8_path + ' -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -jar cobaltstrike.jar', shell=True)
+        subprocess.Popen("cd gui_other/CobaltStrike/CSAgent && " + java8_path + ' -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -javaagent:CSAgent.jar=5e98194a01c6b48fa582a6a9fcbb92d6 -Duser.language=en -jar cobaltstrike.jar', shell=True)
 
     #信息收集
     def dirscan_click(self, event):
