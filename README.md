@@ -2,7 +2,6 @@
 
 ![](https://img.shields.io/github/stars/ghealer/GUI_Tools) ![](https://img.shields.io/github/forks/ghealer/GUI_Tools)  ![](https://img.shields.io/github/issues/ghealer/GUI_Tools)
 > 一个由各种图形化渗透工具组成的工具集，环境已配置完成，自带Java1.8与Java9
-工具会持续添加，欢迎提交新工具到 Issues
 
 ### ✨ Demo
 ![](https://raw.githubusercontent.com/ghealer/GUI_Tools/main/img/demo.png)
@@ -20,7 +19,13 @@
     
   将工具包解压(密码:GUI_Tools)放在GUI_Tools根目录下
   
-  PS.工具包里的Cobalt Strike内置了很多插件（包含了很多病毒程序，请自行甄别使用），如有需要可以自行加载；工具包较大，后续会持续补充。
+- V1.1 更新（重大安全风险，强制更新）
+  
+  `git pull https://github.com/ghealer/GUI_Tools.git`
+
+  `aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMWJBeUJfY3pjUVMyWXdOcU5uSTZzR1EgIDRmNG4=`
+
+  将下载的 gui_other 文件夹替换原 gui_other 文件夹（如已使用旧版 CobaltStrike4.3 ，请删除文件并进行全盘病毒查杀）
 
 - 目录结构
 ```markdown
@@ -48,11 +53,18 @@
 	- 添加 Dirscan、Webfinder、Fofa Viewer、御剑dirscan 等信息收集工具
 	- 添加 shiro、thinkphp、weblogic 等漏洞利用工具
 
+- 2022年1月10日 V1.1（重大安全风险，强制更新）
+	- 删除 CobaltStrike4.3
+	- 删除 CobaltStrike4.3 插件，后续会以文库的形式更新插件包
+	- 删除 Burp_Suite_Professional_v2021.8
+	- 新增原版 CobaltStrike4.4 ，破解方式为[CSAgent](https://github.com/Twi1ight/CSAgent)
+	- 新增原版 BurpSuite_Pro_v2021.10.3 ，破解方式为[BurpLoaderKeygen](https://github.com/h3110w0r1d-y/BurpLoaderKeygen)
+
 - 近期发布 V2.0
 	- 重构框架，将工具进行分组分类
 	- 增加自定义添加工具功能
    	- 新增大量工具 
-   	- ![](https://raw.githubusercontent.com/ghealer/GUI_Tools/main/img/2.0.png)
+	- ![](https://raw.githubusercontent.com/ghealer/GUI_Tools/main/img/2.0.png)
 
 ### 📝 免责声明
 
@@ -75,3 +87,6 @@
 	- **所有工具的收集均来自互联网，请自行甄别是否存在后门等程序，建议在虚拟机里运行本程序下的工具。**
 	- 在2.0出来之前，可以通过修改源码来自定义武器库。
 	- 后面会出一个纯命令行的工具集，尽情期待。
+- **关于 CobaltStrike4.3 存在后门一事的情况说明**
+	- **收到反馈工具包内 CobaltStrike4.3 存在后门情况，工具下载于某苁，下载完未进行后门审查，可能存在未知安全风险，建议所有已安装人员删除旧版本，并进行全盘查杀病毒。**
+	- **修复办法：将工具包内 CobaltStrike4.3 删除，使用火绒或其他病毒查杀软件进行全盘病毒查杀，并监测系统进程与网络连接情况，发现异常进程及连接及时清理；下载 V1.1 更新包进行替换。再次建议在虚拟机里运行本程序下的工具**
